@@ -2,9 +2,9 @@
 An interactive web application full stack project for users to search events by their geolocations and get recommendations based on their favorite records.
 
 ## Tech Stack
-Front end: HTML/CSS/JavaScript
-Back end: JAVA
-Database: MYSQL/MongoDB
+* Front end: HTML/CSS/JavaScript
+* Back end: JAVA
+* Database: MYSQL/MongoDB
 
 ## Recommendation Algorithm(content-based)
 In this project, I recommend events based on categories that the user has favorited. By knowing the category of the item the user favorited, I recommend some events belong to this category nearby this user. Concrete steps are as follow. <br>
