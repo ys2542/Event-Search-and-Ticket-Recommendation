@@ -49,6 +49,9 @@ I implement two databases: MySQL and MongoDB. I prefer MySQL in the project at f
 
 ## Deployment
 Deployment Environment: Amazon EC2 
+
+We can click the link below to use this web application. You can register or use a dafault account(username: 1111, password:2222).
+
 [demo link](http://54.202.63.63/Event-Search-Recommendation-Engine/) 
 
 ## Test
