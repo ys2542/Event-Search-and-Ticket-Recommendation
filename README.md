@@ -37,25 +37,26 @@ I implement two databases: MySQL and MongoDB. I prefer MySQL in the project at f
 
 ## Screenshots
 ### login/logout
-![](https://github.com/weijian2/Event-Search-Recommendation-Engine/raw/master/demoPics/login.png)
+![alt text](/demo/4.png)
 ### register
-![](https://github.com/weijian2/Event-Search-Recommendation-Engine/raw/master/demoPics/login.png)
+![alt text](/demo/5.png)
 ### search
-![](https://github.com/weijian2/Event-Search-Recommendation-Engine/raw/master/demoPics/nearby.png)
+![alt text](/demo/6.png)
 ### favorite
-![](https://github.com/weijian2/Event-Search-Recommendation-Engine/raw/master/demoPics/favorite.png)
+![alt text](/demo/7.png)
 ### recommendation 
-![](https://github.com/weijian2/Event-Search-Recommendation-Engine/raw/master/demoPics/recommendation.png)
+![alt text](/demo/8.png)
 
 ## Deployment
-Deployment Environment: Amazon EC2 <br>
-[demo link](http://54.202.63.63/Event-Search-Recommendation-Engine/) <br>
+Deployment Environment: Amazon EC2 
+
+[demo link](http://54.202.63.63/Event-Search-Recommendation-Engine/) 
 
 ## Test
 Tool: Apache JMeter
 
-whvkhekhwe;fghlwejl 
+We can see the peak throughput happens between 1000 and 2000 threads, so we can test more data points between 1000 and 2000 threads. The throughput will be around 150qps. When I used 2500 threads, I got errors, which means the memory size is my server's bottleneck.
+ 
 ### Summarized report
-![](https://github.com/weijian2/Event-Search-Recommendation-Engine/raw/master/demoPics/recommendation.png)
-
+![alt text](/demo/3.png)
 
