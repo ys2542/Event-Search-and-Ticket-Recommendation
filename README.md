@@ -3,8 +3,10 @@ An interactive web application full stack project for users to search events by 
 
 ## Tech Stack
 * Front end: HTML/CSS/JavaScript
-* Back end: JAVA
-* Database: MYSQL/MongoDB
+* Back end: JAVA8(Eclipse JEE)
+* Database: MYSQL MongoDB
+* Java servlet: Apache Tomcat v9.0
+* Test: Apache JMeter
 
 ## Recommendation Algorithm(content-based)
 In this project, I recommend events based on categories that the user has favorited. By knowing the category of the item the user favorited, I recommend some events belong to this category nearby this user. Concrete steps are as follow. <br>
@@ -13,12 +15,6 @@ In this project, I recommend events based on categories that the user has favori
 3. Given these categories, find what are the events that belong to them. 
 4. Filter events that this user has visited. 
 5. Sort the recommendation list on ascending order of distance between recommended events's locations and user's location.
-
-## Requirements
-Apache Tomcat v9.0
-Eclipse JEE
-JAVA 8
-MySQL/MongoDB
 
 ## Screenshots
 logic layer of this project
