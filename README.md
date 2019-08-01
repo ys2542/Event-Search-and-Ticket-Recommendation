@@ -15,7 +15,7 @@ An interactive web application full stack project for users to search events by 
 In this project, I recommend events based on categories that the user has favorited. By knowing the category of the item the user favorited, I recommend some events belong to this category nearby this user. 
 
 Concrete steps are as follow:
-* Fetch all the events (ids) this user has visited.
+* Fetch all ids of these events this user has visited.
 * Given all these events, fetch the categories of these events. 
 * Given these categories, find what are the events that belong to them. 
 * Filter events that this user has visited. 
