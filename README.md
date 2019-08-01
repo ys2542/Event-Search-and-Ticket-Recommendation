@@ -8,6 +8,9 @@ An interactive web application full stack project for users to search events by 
 * Java servlet: Apache Tomcat v9.0
 * Test: Apache JMeter
 
+## Logic layer
+![alt text](/demo/1.png)
+
 ## Recommendation Algorithm(content-based)
 In this project, I recommend events based on categories that the user has favorited. By knowing the category of the item the user favorited, I recommend some events belong to this category nearby this user. 
 
@@ -19,7 +22,7 @@ Concrete steps are as follow:
 * Sort the recommendation list on ascending order of distance between recommended events's locations and user's location.
 
 ## RPC
-Java servelet could handle the lists RPCs below.
+Java servelet could handle the lists RPCs below:
 * login
 * logout
 * register
@@ -28,22 +31,20 @@ Java servelet could handle the lists RPCs below.
 * set/unset favorite items
 
 ## Database
-I implement two databases: MySQL and MongoDB. I prefer MySQL in the project at first, but if I need to scale the prject, MongoDB could be a good choice;
-
-
-
-
+I implement two databases: MySQL and MongoDB. I prefer MySQL in the project at first, but if I need to scale the prject, MongoDB could be a good choice. The image below is the schema for MySQL database of this project.
+### Schema of data in MySQL database
+![alt text](/demo/2.png)
 
 ## Screenshots
-logic layer of this project
-![](https://github.com/weijian2/Event-Search-Recommendation-Engine/raw/master/demoPics/logic.png)
-login page
+### login/logout
 ![](https://github.com/weijian2/Event-Search-Recommendation-Engine/raw/master/demoPics/login.png)
-nearby page
+### register
+![](https://github.com/weijian2/Event-Search-Recommendation-Engine/raw/master/demoPics/login.png)
+### search
 ![](https://github.com/weijian2/Event-Search-Recommendation-Engine/raw/master/demoPics/nearby.png)
-favorite page
+### favorite
 ![](https://github.com/weijian2/Event-Search-Recommendation-Engine/raw/master/demoPics/favorite.png)
-recommendation page
+### recommendation 
 ![](https://github.com/weijian2/Event-Search-Recommendation-Engine/raw/master/demoPics/recommendation.png)
 
 ## Deployment
@@ -52,4 +53,9 @@ Deployment Environment: Amazon EC2 <br>
 
 ## Test
 Tool: Apache JMeter
+
+whvkhekhwe;fghlwejl 
+### Summarized report
+![](https://github.com/weijian2/Event-Search-Recommendation-Engine/raw/master/demoPics/recommendation.png)
+
 
