@@ -49,14 +49,10 @@ I implement two databases: MySQL and MongoDB. I prefer MySQL in the project at f
 
 ## Deployment
 Deployment Environment: Amazon EC2 
-
 [demo link](http://54.202.63.63/Event-Search-Recommendation-Engine/) 
 
 ## Test
-Tool: Apache JMeter
-
-We can see the peak throughput happens between 1000 and 2000 threads, so we can test more data points between 1000 and 2000 threads. The throughput will be around 150qps. When I used 2500 threads, I got errors, which means the memory size is my server's bottleneck.
- 
+I use Apache JMeter to test the maximum QPS. The peak throughput happens between 1000 and 2000 threads, so I can test more data points between 1000 and 2000 threads. The throughput will be around 150QPS. When I used 2500 threads, I got errors, which means the memory size is my server's bottleneck.
 ### Summarized report
 ![alt text](/demo/3.png)
 
