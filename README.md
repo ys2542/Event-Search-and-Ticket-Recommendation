@@ -48,14 +48,16 @@ I implement two databases: MySQL and MongoDB. I prefer MySQL in the project at f
 ![alt text](/demo/8.png)
 
 ## Deployment
-Deployment Environment: Amazon EC2 
-
-We can click the link below to use this web application. You can register or use a dafault account(username: 1111, password:2222).
-
-[demo link](http://54.202.63.63/Event-Search-Recommendation-Engine/) 
+### Amazon EC2 
+* Launch an ubuntu machine(set port 80)
+* Install Java, MySQL or MongoDB, Apache Tomcat
+* Upload WAR file
+* Start Java servlet(change port to 80)
+* http://YOUR_IP_ADDRESS/Jupiter/ 
+* You can register or use a dafault account(username: 1111, password:2222)
 
 ## Test
-I use Apache JMeter to test the maximum QPS. The peak throughput happens between 1000 and 2000 threads, so I can test more data points between 1000 and 2000 threads. The throughput will be around 150QPS. When I used 2500 threads, I got errors, which means the memory size is my server's bottleneck.
+I use Apache JMeter to test the maximum QPS in Amazon EC2. The peak throughput happens between 1000 and 2000 threads, so I can test more data points between 1000 and 2000 threads. The throughput will be around 150QPS. When I used 2500 threads, I got errors, which means the memory size is my server's bottleneck.
 ### Summarized report
 ![alt text](/demo/3.png)
 
